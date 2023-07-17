@@ -1,0 +1,10 @@
+.slogan{
+    background-color: black;
+    height: 100vh;
+}
+
+.mypic{
+    position: relative;
+    top: 25vh;
+    text-align: center;
+}
