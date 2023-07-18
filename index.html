@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/sectionslogan.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
@@ -52,10 +53,31 @@
   </header>
 
 
-  <section class="slogan">
-    
-      <img src="images/Screenshot (66).png" alt="me" class="mypic">
-    
+  <section class="container-fluid slogan">
+    <div class="row p-5 mx-5">
+      <div class="col">
+        <img src="images/Screenshot (66).png" alt="me" class="mypic" >
+      </div>
+
+      <div class="col mx-auto border-start p-5 text-uppercase">
+        <p class="text-white fs-2 mt-5" id="line1"> </p>
+        <p class="text-white fs-2 mt-4" id="line2">  </p>
+        <div class=" fs-3 mt-5 text-capitalize"  style="color: #CD9834;" data-aos="fade-left"  data-aos-duration="3000">tsiory rasoloarijaona  </div>
+
+        <div class="container-fluid mt-5">
+          <div class="row">
+            <div class="col">
+             <p class="fs-1 text-center text-white"> <i class="bi bi-file-earmark-code-fill"></i></p>
+              <p class="fs-4 text-center text-white" >full-stack developer</p>
+            </div>
+            <div class="col">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <section id="introduction" class="section introduction">
@@ -246,6 +268,11 @@
   <script src="js/modernizr.js"></script>
   <script src="js/main.js"></script>
   <script src="navbar.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
