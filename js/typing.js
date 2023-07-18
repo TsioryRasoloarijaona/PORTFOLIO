@@ -9,12 +9,22 @@ function typing (){
         document.getElementById('line1').innerHTML += text.charAt(i);
         i++;
     }
-    if (j < text1.length){
-        document.getElementById('line2').innerHTML += text1.charAt(j);
-        j++;
-    }
+
 
     setTimeout(typing, 150);
 }
 
-window.addEventListener('DOMContentLoaded',typing)
+function typing1(){
+    if (j < text1.length){
+        document.getElementById('line2').innerHTML += text1.charAt(j);
+        j++;
+    }
+    setTimeout(typing1,150)
+    
+}
+
+window.addEventListener('DOMContentLoaded',()=>{
+    typing();
+   typing1();
+})
+
