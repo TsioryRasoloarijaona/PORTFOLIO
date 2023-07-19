@@ -8,6 +8,10 @@ body{
     overflow-x: hidden;
 }
 
+#navigation{
+    z-index: 50;
+}
+
 nav{
 position: fixed;
 top: 30vh;
@@ -42,7 +46,7 @@ nav .nav-content{
 
 .nav-content .toggle-btn{
     font-size: 35px;
-    color: #0e2431;
+    color: white;
     z-index: 100;
     cursor: pointer;
     transform: rotate(-225deg);
@@ -70,7 +74,7 @@ nav.open .nav-content span{
 
 .nav-content span a i{
     font-size: 24px;
-    color: #0e2431;
+    color:whitesmoke;
     transform: rotate(calc(var(--i) * (360deg/ -8)));
 }
 
