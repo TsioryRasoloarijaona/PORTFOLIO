@@ -25,5 +25,3 @@ const NumberCounter = ()=>{
 NumberCounter() 
 }
 
-document.getElementById('html').addEventListener('scroll' ,
-    progression());

@@ -1,9 +1,4 @@
-.slogan{
-    background-color: black;
-    height: 100vh;
-}
-
-#tsiory{
+*{
     font-family: 'Abril Fatface', cursive;
 font-family: 'Barlow', sans-serif;
 font-family: 'Be Vietnam Pro', sans-serif;
@@ -21,11 +16,51 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Righteous', cursive;
 font-family: 'Tajawal', sans-serif;
+font-family: 'Titillium Web', sans-serif;
 font-family: 'Urbanist', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
 
-.myabilities{
-   
+
+.slogan{
+  background-color: black;
+  background-image: url(../images/pic.png);
+  background-repeat: no-repeat;
+  background-position:80% 25%;
     height: 100vh;
 }
+
+
+
+
+
+
+
+.margin1{
+    margin-left: 20%;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+
+.wrapper .static-text{
+    font-size: 30px;
+
+}
+
+.wrapper .dynamic-text li span{
+    font-size: 30px;
+    color:#800020;
+    font-weight: bold;
+}
+
+.margin2{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
