@@ -24,9 +24,11 @@ font-family: 'Work Sans', sans-serif;
 
 .slogan{
   background-color: black;
-  background-image: url(../images/pic.png);
+  background-image: url(../images/pic.jpg);
   background-repeat: no-repeat;
+ background-size: contain;
   background-position:80% 25%;
+  background-attachment: fixed;
     height: 100vh;
 }
 
@@ -38,12 +40,13 @@ font-family: 'Work Sans', sans-serif;
 
 .margin1{
     margin-left: 20%;
+    padding-top: 10%;
 }
 
 
 .wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
    
 }
@@ -55,7 +58,7 @@ font-family: 'Work Sans', sans-serif;
 
 .wrapper .dynamic-text li span{
     font-size: 30px;
-    color:#800020;
+    color:white;
     font-weight: bold;
 }
 

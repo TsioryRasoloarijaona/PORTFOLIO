@@ -37,7 +37,8 @@ nav .nav-content{
 .nav-content span a {
     height: 50px;
     width: 50px;
-    background-color: #4f0618;;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +47,7 @@ nav .nav-content{
 
 .nav-content .toggle-btn{
     font-size: 35px;
-    color: white;
+    color: black;
     z-index: 100;
     cursor: pointer;
     transform: rotate(-225deg);
@@ -74,7 +75,9 @@ nav.open .nav-content span{
 
 .nav-content span a i{
     font-size: 24px;
-    color:whitesmoke;
+    color:black;
+   
+
     transform: rotate(calc(var(--i) * (360deg/ -8)));
 }
 
