@@ -46,7 +46,7 @@ font-family: 'Work Sans', sans-serif;
    color: white;
     position: relative;
     top: 15%;
-    left: 10vw;
+    left: 20vw;
     font-size: 20px;
     padding: 15px 30px;
     font-weight: 600;
@@ -100,7 +100,7 @@ padding-top: 15%;
 
 
 .margin-name{
-    margin-left: 10vw;
+    margin-left: 20vw;
     font-weight:500;
 }
 
