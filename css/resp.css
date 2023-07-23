@@ -1,5 +1,13 @@
-@media screen and(max-width: 1200px) {
-    #cv {
-       color: red;
-     }
+@media (max-width: 900px) {
+  #cv{
+   
+    position: relative;
+    top: 20%;
+    left: 3%;
+    font-size: 15px;
+    padding: 10px 10px;
+   
+    
+    
+}
 }
