@@ -113,7 +113,7 @@ padding-top: 15%;
 
 .about{
     position: relative;
-    top: 80px;
+    top: 40px;
     
 }
 
@@ -130,6 +130,14 @@ padding-top: 15%;
         font-size: 20px;
         letter-spacing: 2em;
         font-weight: 600;
+}
+
+.introduce{
+    width: 50%;
+ position: relative;
+ top: 25vh;
+ color: black;
+
 }
 
 
