@@ -142,14 +142,14 @@ padding-top: 15%;
 
 .education{
   margin-top: 40vh;
-  background-color: antiquewhite;
+  
 }
 
 
 
 .imgBox{
     width: 200px;
-    
+    text-align: center;
 }
 
 .imgBox img{
