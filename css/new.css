@@ -111,9 +111,9 @@ padding-top: 15%;
     color: white;
 }
 
-.about{
+.tittle{
     position: relative;
-    top: 40px;
+    top: 70px;
     
 }
 
@@ -137,6 +137,23 @@ padding-top: 15%;
  position: relative;
  top: 25vh;
  color: black;
+
+}
+
+.education{
+  margin-top: 40vh;
+  background-color: antiquewhite;
+}
+
+
+
+.imgBox{
+    width: 200px;
+    
+}
+
+.imgBox img{
+    width: 100%;
 
 }
 
