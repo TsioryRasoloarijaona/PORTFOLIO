@@ -1,19 +1,81 @@
 
 
-.card {
-    position: relative;
-    width: 200px;
-    height: 200px;
+
+
+/*------------------------------------------------------------------------*/
+
+.skill{
+    margin-top:30vh;
+    background-color: #222;
+     min-height: 100vh;
 }
 
-.card .rating {
+.progress0{
+    
+   height: fit-content;
+   position: relative;
+   top: 15vh;
+
+}
+
+.progress{
+    margin-bottom: 8vh;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    background-color: transparent;
+    
+   
+
+}
+
+@media (max-width : 966px) {
+    
+}
+
+.code{
+    position: relative;
+}
+
+.code p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.CODING{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    text-shadow: 0 5px 20px rgb(0 0 0 / 0.5);
+    color: #333;
+}
+
+.coding{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5em;
+    font-weight: 700;
+}
+
+
+
+.card1 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card1 .rating1 {
     position: relative;
     width: 100%;
     height: 100%;
     
 }
 
-.card .rating .block {
+.card1 .rating1 .block1 {
     position: absolute;
     width: 2px;
     height: 15px;
@@ -31,12 +93,13 @@
     }
 }
 
-.card .rating .block:nth-child(-n+91){
-    background-color: red;
-
+.card1 .rating1 .block1:nth-child(-n+90){
+background-color: #66FF99;
 }
 
-.card .rating p {
+
+
+.card1 .rating1 p {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -48,12 +111,327 @@
 
 }
 
-.card .rating p span {
+.card1 .rating1 p span {
     font-size: 2.5em;
     font-weight: 700;
 }
 
-.card .rating p sup {
+.card1 .rating1 p sup {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.card2 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card2 .rating2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card2 .rating2 .block2 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animate 0.1s linear forwards;
+
+}
+
+@keyframes animate {
+    to {
+        opacity: 1;
+    }
+}
+
+.card2 .rating2 .block2:nth-child(-n+95){
+background-color: #66FF99;
+}
+
+
+
+.card2 .rating2 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.card2 .rating2 p span {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card2 .rating2 p sup {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.card3 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card3 .rating3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card3 .rating3 .block3 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animate 0.1s linear forwards;
+
+}
+
+@keyframes animate {
+    to {
+        opacity: 1;
+    }
+}
+
+.card3 .rating3 .block3:nth-child(-n+98){
+background-color: #66FF99;
+}
+
+
+
+.card3 .rating3 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.card3 .rating3 p span {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card3 .rating3 p sup {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+.card4 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card4 .rating4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card4 .rating4 .block4 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animate 0.1s linear forwards;
+
+}
+
+@keyframes animate {
+    to {
+        opacity: 1;
+    }
+}
+
+.card4 .rating4 .block4:nth-child(-n+95){
+background-color: #66FF99;
+}
+
+
+
+.card4 .rating4 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.card4 .rating4 p span {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card4 .rating4 p sup {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.card5 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card5 .rating5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card5 .rating5 .block5 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animate 0.1s linear forwards;
+
+}
+
+@keyframes animate {
+    to {
+        opacity: 1;
+    }
+}
+
+.card5 .rating5 .block5:nth-child(-n+99){
+background-color: #66FF99;
+}
+
+
+
+.card5 .rating5 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.card5 .rating5 p span {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card5 .rating5 p sup {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.card6 {
+    
+    width: 200px;
+    height: 200px;
+    background-color:  transparent;
+}
+
+.card6 .rating6 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card6 .rating6 .block6 {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: black;
+    left: 50%;
+    transform-origin: 50% 100px;
+    opacity: 0;
+    animation: animate 0.1s linear forwards;
+
+}
+
+@keyframes animate {
+    to {
+        opacity: 1;
+    }
+}
+
+.card6 .rating6 .block6:nth-child(-n+98){
+background-color: #66FF99;
+}
+
+
+
+.card6 .rating6 p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.card6 .rating6 span {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card6 .rating6 p sup {
     font-size: 1.5em;
     font-weight: 300;
 }
