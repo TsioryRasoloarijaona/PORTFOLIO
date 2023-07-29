@@ -44,7 +44,10 @@
 
 @media (max-width:967px) {
   .capital{
-    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(0 , -50%);
+    font-size: 80px;
 
     
   }

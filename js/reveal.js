@@ -29,24 +29,9 @@ sr.reveal('#cv',{
     duration : 5000
 })
 
-let absolute = {
-    origin : 'bottom',
-    distance :'30px',
-    duration : 2000
-}
 
-sr.reveal('.capital', 
-   absolute
-)
 
-let absolute1 ={
-    origin : 'bottom',
-    distance :'30px',
-    duration : 2000,
-    delay : 1500
-}
 
-sr.reveal('#lowercase',absolute1)
 
 sr.reveal('.introduce' , paragraph)
 
@@ -75,9 +60,6 @@ sr.reveal('.project',{
 
 sr.reveal('.time',paragraph)
 
-sr.reveal('.back' , absolute)
-
-sr.reveal('.front' , absolute1)
 
 sr.reveal('.paragraph' , paragraph)
 
