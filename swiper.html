@@ -5,10 +5,7 @@
   <meta charset="utf-8" />
   <title>Swiper demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-  <!-- Demo styles -->
   <style>
     html,
     body {
@@ -25,83 +22,178 @@
       padding: 0;
     }
 
-    .swiper {
+    swiper-container {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
     }
 
-    .swiper-slide {
+    swiper-slide {
       background-position: center;
       background-size: cover;
-      width:400px;
-      height: 300px;
+      width: 400px;
+      height: 500px;
     }
 
-    .swiper-slide img {
+    swiper-slide img {
       display: block;
       width: 100%;
     }
   </style>
+
+ 
 </head>
 
 <body>
-  <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="30" coverflow-effect-stretch="0" coverflow-effect-depth="500"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+    <swiper-slide>
+      <div class="slide">
+        <div class="sliderimg">
+          <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+        </div>
+        <div class="txtcontent">
+          <p>ipsum dolor sit amet consectetur adipisicing elit.
+            Autem maiores nesciunt deleniti beatae, nam doloremque!
+            Voluptates nesciunt voluptatum, nulla doloribus tempore
+            enim similique
+            minus veritatis adipisci ratione, exercitationem
+            perspiciatis velit?</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide">
+        <div class="sliderimg">
+          <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+        </div>
+        <div class="txtcontent">
+          <p>ipsum dolor sit amet consectetur adipisicing elit.
+            Autem maiores nesciunt deleniti beatae, nam doloremque!
+            Voluptates nesciunt voluptatum, nulla doloribus tempore
+            enim similique
+            minus veritatis adipisci ratione, exercitationem
+            perspiciatis velit?</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide">
+        <div class="sliderimg">
+          <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+        </div>
+        <div class="txtcontent">
+          <p>ipsum dolor sit amet consectetur adipisicing elit.
+            Autem maiores nesciunt deleniti beatae, nam doloremque!
+            Voluptates nesciunt voluptatum, nulla doloribus tempore
+            enim similique
+            minus veritatis adipisci ratione, exercitationem
+            perspiciatis velit?</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide">
+        <div class="sliderimg">
+          <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+        </div>
+        <div class="txtcontent">
+          <p>ipsum dolor sit amet consectetur adipisicing elit.
+            Autem maiores nesciunt deleniti beatae, nam doloremque!
+            Voluptates nesciunt voluptatum, nulla doloribus tempore
+            enim similique
+            minus veritatis adipisci ratione, exercitationem
+            perspiciatis velit?</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="slide">
+        <div class="sliderimg">
+          <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+        </div>
+        <div class="txtcontent">
+          <p>ipsum dolor sit amet consectetur adipisicing elit.
+            Autem maiores nesciunt deleniti beatae, nam doloremque!
+            Voluptates nesciunt voluptatum, nulla doloribus tempore
+            enim similique
+            minus veritatis adipisci ratione, exercitationem
+            perspiciatis velit?</p>
+        </div>
+      </div>
+    </swiper-slide>
+
+  </swiper-container>
+
+
+  <div class=" mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+      <div class="swiper-slide" style="width: 200px;">
+        <div class="slide">
+          <div class="sliderimg">
+            <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+          </div>
+          <div class="txtcontent">
+            <p>ipsum dolor sit amet consectetur adipisicing elit.
+              Autem maiores nesciunt deleniti beatae, nam doloremque!
+              Voluptates nesciunt voluptatum, nulla doloribus tempore
+              enim similique
+              minus veritatis adipisci ratione, exercitationem
+              perspiciatis velit?</p>
+          </div>
+        </div>
       </div>
       <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <div class="slide">
+          <div class="sliderimg">
+            <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+          </div>
+          <div class="txtcontent">
+            <p>ipsum dolor sit amet consectetur adipisicing elit.
+              Autem maiores nesciunt deleniti beatae, nam doloremque!
+              Voluptates nesciunt voluptatum, nulla doloribus tempore
+              enim similique
+              minus veritatis adipisci ratione, exercitationem
+              perspiciatis velit?</p>
+          </div>
+        </div>
       </div>
       <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        <div class="slide">
+          <div class="sliderimg">
+            <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+          </div>
+          <div class="txtcontent">
+            <p>ipsum dolor sit amet consectetur adipisicing elit.
+              Autem maiores nesciunt deleniti beatae, nam doloremque!
+              Voluptates nesciunt voluptatum, nulla doloribus tempore
+              enim similique
+              minus veritatis adipisci ratione, exercitationem
+              perspiciatis velit?</p>
+          </div>
+        </div>
       </div>
       <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+        <div class="slide">
+          <div class="sliderimg">
+            <img src="images/original-f627dc439b3ed7f2c88e9dd61c2b2cc3.png" alt="images">
+          </div>
+          <div class="txtcontent">
+            <p>ipsum dolor sit amet consectetur adipisicing elit.
+              Autem maiores nesciunt deleniti beatae, nam doloremque!
+              Voluptates nesciunt voluptatum, nulla doloribus tempore
+              enim similique
+              minus veritatis adipisci ratione, exercitationem
+              perspiciatis velit?</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
+  </swiper-container>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 500,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
 </body>
 
 </html>
