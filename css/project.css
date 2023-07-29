@@ -97,4 +97,79 @@ swiper-container {
     height: 100%;
 }
 
+.transition{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+
+    background: #181818 ;
+    
+}
+
+.transition p{
+    color: white;
+    font-size: 20px;
+}
+
+.scroll{
+    position: absolute;
+    top: 40px;
+    left: calc(50%-40px/2);
+    width: 40px;
+    height: 40px;
+    
+    transform: rotate(45deg) 
+    
+
+}
+
+.scroll span{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid white;
+  border-right:2px solid white;
+  animation: scroll 1.5s linear infinite;
+  opacity: 0;
+}
+
+.scroll span:nth-child(1){
+    transform: translate(-15px , -15px);
+    animation-delay: -0.2s;
+}
+
+.scroll span:nth-child(2){
+    transform: translate(0 , 0);
+    animation-delay: -0.4s;
+}
+
+@keyframes scroll {
+    0%{
+        top: -5px;
+        left: -5px;
+        opacity: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+@media (max-width : 685px) {
+    .transition{
+        top: 9vh;
+        height: 10vh;
+        z-index: 0;
+    }
+
+    .skill{
+        z-index: 10;
+    }
+
+ 
+}
+
 

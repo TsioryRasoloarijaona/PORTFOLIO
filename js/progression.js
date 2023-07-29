@@ -1,3 +1,4 @@
+console.log('active');
 function prog1(){const rating = document.getElementsByClassName('rating1')[0];
 const block = document.getElementsByClassName('block1');
 
