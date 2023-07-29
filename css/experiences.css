@@ -1,0 +1,255 @@
+.pre-footer{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: black;
+    background-size: cover;
+}
+
+.pre-footer .summury{
+  width:40%;
+ margin: 0 auto;
+    
+}
+
+.pre-footer .summury .tittlesum{
+position: relative;
+text-align: center;
+}
+
+.pre-footer .summury .tittlesum p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.pre-footer .summury .tittlesum p:nth-child(1){
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(34, 31, 31);
+    z-index: 0;
+}
+
+
+
+.pre-footer .summury .tittlesum p:nth-child(2){
+   font-size: 20px;
+   color: white;
+   letter-spacing: 1em;
+}
+
+
+.pre-footer .experiences{
+    width:40%;
+    margin: 0 auto;
+   
+}
+
+
+.list{
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+    flex-wrap: wrap;
+}
+
+.list p{
+  
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 30%;
+    padding: 20px 0;
+}
+
+.list p span{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.paragraph{
+    position: relative;
+    top: 20vh;
+    width: 100%;
+}
+
+.paragraph p{
+    color : white;
+    line-height: 2.5em;
+    letter-spacing: 3px;
+    background-color: black;
+
+}
+
+.pre-footer .experiences .tittlesum{
+    position: relative;
+    
+    }
+
+.pre-footer .experiences .tittlesum p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.pre-footer .experiences .tittlesum p:nth-child(1){
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(34, 31, 31);
+    z-index: 0;
+}
+
+
+
+.pre-footer .experiences .tittlesum p:nth-child(2){
+   font-size: 20px;
+   color: white;
+   letter-spacing: 2em;
+}
+
+@media (max-width : 887px) {
+    .pre-footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    .pre-footer .summury{
+       position: relative;
+       margin: 0 auto;
+       top: 10vh;
+    width: 75%;
+      }
+
+      .list{
+        position: relative;
+        top: 10vh;
+    
+      }
+
+      .pre-footer .experiences{
+        position: relative;
+       top: 20vh;
+        margin: 0 auto;
+     width: 100%;
+     background-color: black;
+       }
+
+       .paragraph{
+           position: relative;
+           top: 10vh;
+           width: 100%;
+        }
+
+        .paragraph p{
+            padding: 5vh ;
+        }
+    }
+        
+    @media (max-width : 495px) {
+        .pre-footer .summury .list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .pre-footer .experiences{
+       
+     width: 100%;
+       }
+
+       .paragraph p{
+        
+        line-height:normal;
+        
+    
+    }
+}
+   
+
+@media (max-width:632px) {
+    .pre-footer .experiences{
+       
+        width:100%;
+        
+          }
+   
+          .paragraph p{
+           
+           line-height:1.5em;
+           padding: 8px;
+           
+       
+       }
+}
+
+@media (max-width : 427px) {
+    .pre-footer .summury .tittlesum p:nth-child(1){
+        font-size: 50px;
+        
+    }
+    .pre-footer .experiences .tittlesum p:nth-child(1){
+        font-size: 50px;
+        
+    }
+    
+    
+    
+    .pre-footer .summury .tittlesum p:nth-child(2){
+      
+       letter-spacing: 0.5em;
+    }
+
+    .pre-footer .experiences .tittlesum p:nth-child(2){
+      
+        letter-spacing: 0.5em;
+     }
+}
+
+@media (max-width : 427px) {
+    .pre-footer .summury .tittlesum p:nth-child(1){
+        font-size: 50px;
+        
+    }
+    .pre-footer .experiences .tittlesum p:nth-child(1){
+        font-size: 50px;
+        
+    }
+    
+    
+    
+    .pre-footer .summury .tittlesum p:nth-child(2){
+      
+       letter-spacing: 0.5em;
+    }
+
+    .pre-footer .experiences .tittlesum p:nth-child(2){
+      
+        letter-spacing: 0.5em;
+     }
+}
+
+.saying{
+    padding-top: 15px;
+    color: rgb(58, 58, 58);
+}
+
+
+
+
+
