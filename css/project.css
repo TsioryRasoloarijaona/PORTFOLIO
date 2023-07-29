@@ -50,6 +50,35 @@ swiper-container {
     padding: 15px;
     box-sizing: border-box;
     color: black;
+    
+}
+
+@media (max-width:439px) {
+    swiper-slide{
+        width: 350px;
+    }
+    .slide{
+        width: 350px;
+    }
+    .slide .txtcontent{
+        width: 350px;
+        padding:8px
+        
+    }
+}
+
+@media (max-width:385px) {
+    swiper-slide{
+        width: 300px;
+    }
+    .slide{
+        width: 300px;
+    }
+    .slide .txtcontent{
+        width: 300px;
+        padding:3px
+        
+    }
 }
 
 .slide .sliderimg{

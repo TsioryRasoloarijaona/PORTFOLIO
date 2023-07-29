@@ -13,6 +13,7 @@ top: 20vh;
 }
 
 .wave span {
+    color: aliceblue;
     position: relative;
     display: inline-block;
     font-size: 1.5em;
@@ -21,6 +22,8 @@ top: 20vh;
     animation-delay: calc(0.1s * var(--i)) ;
     font-weight: 600;
 }
+
+
 
 @keyframes wave {
     0%{
@@ -36,9 +39,50 @@ top: 20vh;
 
 .wave p{
     position: relative;
-    top: 20vh;
+    top: 15vh;
     width: 90%;
     font-size: 1em;
-    
+    color: aliceblue;
     line-height: 5vh;
+}
+
+@media (max-width:687px) {
+    .wave{
+        width: 90%;
+    }
+    .wave p{
+        width: 100%; 
+        top:10vh ;
+    }
+}
+
+@media (max-width:503px) {
+    .wave{
+        width: 97%;
+    }
+    .wave p{
+        width: 100%; 
+    }
+}
+
+
+@media (max-width:449px) {
+    .wave{
+        width: 97%;
+    }
+    .wave p{
+        width: 100%; 
+        line-height: 4vh;
+    }
+}
+
+@media (max-width:349px) {
+    .wave{
+        width: 97%;
+        top: 5vh;
+    }
+    .wave p{
+        width: 100%; 
+        line-height: 4vh;
+    }
 }

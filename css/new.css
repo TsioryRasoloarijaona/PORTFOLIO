@@ -25,6 +25,7 @@ font-family: 'Work Sans', sans-serif;
 
 
 .slogan{
+    position: relative;
   background-color: black;
   background-image: url(../images/pic.jpg);
   background-repeat: no-repeat;
@@ -40,6 +41,10 @@ height: 100vh;
     margin-bottom: 10vh;
 }
 
+.resp{
+    font-size: 2em;
+}
+
 
 
 
@@ -47,7 +52,7 @@ height: 100vh;
     text-decoration: none;
    color: white;
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 20vw;
     font-size: 20px;
     padding: 15px 30px;
@@ -100,9 +105,40 @@ padding-top: 15%;
 
 }
 
+.icon{
+    position: relative;
+    left: 20vw;
+    top: 10%;
+    
+}
+
+.icon span {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1em;
+   
+}
+
+.icon span .i{
+    animation: icon 1s ease-in-out infinite;
+}
+
+@keyframes icon {
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40% , 100%{
+        transform:translateY(0px)  ;
+    }
+}
+
 
 .margin-name{
-    margin-left: 20vw;
+    position: relative;
+    left: 20vw;
     font-weight:500;
 }
 
@@ -149,7 +185,7 @@ padding-top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:  #222;
+    background:  rgb(0, 0, 0);
     min-height: 100vh;
 }
 
@@ -169,7 +205,7 @@ padding-top: 15%;
     display: flex;
     width: 45%;
     margin: 30px 0;
-    box-shadow:  0 5px 15px rgb(0 0 0 / 0.5);
+    box-shadow:  0 5px 15px rgb(0 0 0 / 0.1);
 }
 
 
@@ -180,7 +216,7 @@ padding-top: 15%;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #333;
+    background-image:linear-gradient(to bottom, rgb(13, 18, 48) 30%,black);
     z-index: 1;
     display: flex;
     justify-content:center;
@@ -195,7 +231,7 @@ padding-top: 15%;
     left: -75px;
     top: calc(50% - 75px);
     transition: 0.5s ease-in-out;
-    background-color: rgb(2, 5, 29);
+    background-image:linear-gradient(to bottom, rgb(23, 30, 68,0.8) 60%,black);
 
 }
 
