@@ -104,6 +104,7 @@ swiper-container {
     height: fit-content;
 
     background: #181818 ;
+    z-index: 20;
     
 }
 
@@ -162,11 +163,7 @@ swiper-container {
     .transition{
         top: 9vh;
         height: 10vh;
-        z-index: 0;
-    }
-
-    .skill{
-        z-index: 10;
+       
     }
 
  
