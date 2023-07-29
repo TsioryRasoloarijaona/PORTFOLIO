@@ -1,16 +1,46 @@
-@media (max-width: 900px) {
-  #cv{
-   
-    position: relative;
-    top: 20%;
-    left: 3%;
-    font-size: 15px;
-    padding: 10px 10px;
-   
-    
-    
+@media (max-width: 875px) {
+ #cv{
+  left: 2.5vw;
+  top: 40%;
+  padding: 10px 15px;
+ }
+
+ .margin-name{
+  top: 15%;
+  left: 2.5vw;
+  width: 100%;
+ }
+
+ .icon{
+  left: 2.5vw;
+  top: 20%;
+ }
+
+
 }
+
+@media (max-width: 544px){
+ .resp{
+  font-size: 20px;
+ }
 }
+
+@media (max-width: 391px){
+  .resp{
+   font-size: 15px;
+  }
+ }
+
+ @media (max-width: 319px){
+  .resp{
+   font-size: 12px;
+  }
+
+  .icon span{
+    font-size: 25px;
+    letter-spacing: 0.5em;
+  }
+ }
 
 @media (max-width:967px) {
   .capital{
